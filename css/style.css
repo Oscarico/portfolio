@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	background: url(../images/programming.jpg);
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+
+#container {
+	background: #002651;
+	width: 420px;
+	color: white;
+	padding: 18px;
+	opacity: 0.9;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+}
+
+h2 {
+	background: #2f89fc;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a {
+	color: #2f89fc;
+	text-decoration: none;
+}
+
+img {
+	width: 35px;
+	height: 35px;
+}
+
+img.ones {
+	width: 45px;
+	height: 20px;
+}
